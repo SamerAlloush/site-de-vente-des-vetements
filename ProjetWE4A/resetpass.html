@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Reset Password</title>
+ <link rel="stylesheet" type="text/css" href="style/resetstyle.css">
+ 
+ <style>
+   .custom-button {
+        width: 150px;
+        margin: 0 auto;
+        display: block;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top:3%;
+    }
+    
+    .custom-button:hover {
+        background-color: #0056b3;
+    }
+
+ </style>
+</head>
+<body>
+    <div id="imgback">
+
+        <form id="reset-password-form">
+            <table>
+                
+                <h1>Reset Password</h1>
+                <div class="input-container">
+                    <tr>
+                        
+                        <td>
+                            <label for="email"><strong>Email</strong></label>
+                        </td> 
+                
+              <td>
+                  
+                  <input style="width: 200px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px; color: #333; background-color: #f7f7f7;" type="email" id="email" name="email" required>
+                </td> 
+            </tr>
+    </div>
+    <div class="input-container">
+        <tr>
+            <td>
+                
+                <label for="password"><strong>New Password</strong></label>
+            </td>   
+            <td>
+                
+                <input style="width: 200px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px; color: #333; background-color: #f7f7f7;" type="password" id="password" name="password" required>
+            </td>  
+        </tr>
+    </div>
+    <div class="input-container">
+        <tr>
+            <td>
+                
+                <label for="confirm-password"><strong>Confirm New Password</strong></label>
+            </td>
+            <td>
+                
+                <input style="width: 200px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px; color: #333; background-color: #f7f7f7;" type="password" id="confirm-password" name="confirm-password" required>
+            </td>
+        </tr>
+    </div>
+    <tr>
+        <td >
+            
+        </td>
+    </tr>
+</table>
+
+            <button class="custom-button" type="submit">Reset Password</button>
+
+</form>
+</div>
+
+
+</body>
+</html>
